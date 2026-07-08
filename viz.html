@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>EDMO Weekly Pulse — Wiki Viewer</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<script src="https://cdn.jsdelivr.net/npm/cytoscape@3.28.1/dist/cytoscape.min.js"></script>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;overflow:hidden;background:#0f172a;color:#e2e8f0;height:100vh;display:flex;flex-direction:column}
+.hdr{background:linear-gradient(135deg,#1a1a2e,#16213e);padding:10px 20px;display:flex;align-items:center;gap:12px;border-bottom:1px solid #1e293b;flex-shrink:0;flex-wrap:wrap}
+.hdr h1{font-size:16px;font-weight:600}
+.hdr .sub{font-size:12px;color:#64748b}
+.ctrls{display:flex;gap:6px;flex-wrap:wrap;margin-left:auto}
+.ctrls button{padding:3px 10px;border-radius:4px;border:1px solid #334155;background:#1e293b;color:#94a3b8;font-size:11px;cursor:pointer}
+.ctrls button:hover{background:#334155;color:#e2e8f0}
+.ctrls button.on{background:#3b82f6;color:#fff;border-color:#3b82f6}
+#cy{flex:1;width:100%;min-height:0}
+#info{position:fixed;right:20px;top:60px;width:380px;max-height:80vh;background:#1e293b;border:1px solid #334155;border-radius:8px;padding:16px;overflow-y:auto;display:none;z-index:100;font-size:13px;box-shadow:0 4px 20px rgba(0,0,0,.4)}
+#info h2{font-size:14px;margin-bottom:8px;color:#e2e8f0;word-break:break-word}
+#info .tp{font-size:11px;color:#64748b;margin-bottom:4px;text-transform:uppercase;letter-spacing:.5px}
+#info .desc{color:#94a3b8;margin:8px 0;line-height:1.5;font-size:12px}
+#info a{color:#60a5fa}
+#info .tags span{display:inline-block;padding:1px 6px;border-radius:3px;background:#334155;color:#94a3b8;font-size:10px;margin:2px}
+#info .close{float:right;cursor:pointer;color:#64748b;font-size:18px;line-height:1}
+.legend{position:fixed;left:20px;bottom:20px;background:#1e293b;border:1px solid #334155;border-radius:6px;padding:8px 12px;font-size:11px;z-index:50}
+.legend .r{display:flex;align-items:center;gap:6px;padding:2px 0}
+.legend .d{width:10px;height:10px;border-radius:50%;flex-shrink:0}
+#hint{position:fixed;left:50%;top:50%;transform:translate(-50%,-50%);color:#334155;font-size:14px;pointer-events:none;z-index:1;text-align:center;transition:opacity 1s}
+@media(max-width:600px){.hdr h1{font-size:14px}.ctrls button{font-size:10px;padding:2px 6px}#info{width:calc(100vw-20px);right:10px;top:50px}}
+</style>
+</head>
+<body>
+<div class="hdr">
+  <h1>📡 EDMO Weekly Pulse</h1>
+  <span class="sub" id="stats">28 nodes · 87 edges</span>
+  <div class="ctrls">
+    <button onclick="filter('all')" class="on">All</button>
+    <button onclick="filter('concept')">🧠 Concept</button>
+    <button onclick="filter('entity')">🏛 Entity</button>
+    <button onclick="filter('raw_article')">📄 Issues</button>
+    <button onclick="layout('cose')">Auto</button>
+    <button onclick="layout('grid')">Grid</button>
+    <button onclick="layout('breadthfirst')">Timeline</button>
+  </div>
+</div>
+<div id="cy"></div>
+<div id="hint">🔍 Zoom &amp; drag to explore…</div>
+<div id="info"><span class="close" onclick="closeInfo()">✕</span><div id="info-content"></div></div>
+<div class="legend" id="legend"></div>
+<script>
+var DATA = null;
+var cy = null;
+
+function init() {
+  fetch('bundle.json')
+    .then(function(r) { return r.json(); })
+    .then(function(data) {
+      DATA = data;
+      buildGraph();
+      buildLegend();
+    })
+    .catch(function(err) {
+      document.getElementById('stats').textContent = 'Error: ' + err.message;
+    });
+}
+
+function buildGraph() {
+  cy = cytoscape({
+    container: document.getElementById('cy'),
+    elements: [].concat(DATA.nodes, DATA.edges),
+    style: [
+      { selector: 'node', style: { 'background-color': 'data(color)', 'label': 'data(label)', 'color': '#f1f5f9', 'font-size': '8px', 'text-valign': 'center', 'text-halign': 'center', 'text-outline-width': 2, 'text-outline-color': '#0f172a', 'width': 'mapData(degree,0,30,20,60)', 'height': 'mapData(degree,0,30,20,60)', 'border-width': 1.5, 'border-color': 'data(color)', 'border-opacity': 0.6, 'background-opacity': 0.85 } },
+      { selector: 'node[type="concept"]', style: { 'shape': 'diamond', 'font-weight': 'bold', 'font-size': '9px' } },
+      { selector: 'node[type="entity"]', style: { 'shape': 'hexagon', 'font-size': '11px', 'width': 70, 'height': 70 } },
+      { selector: 'node[type="raw_article"]', style: { 'shape': 'ellipse', 'font-size': '7px' } },
+      { selector: 'edge', style: { 'width': 1, 'line-color': '#334155', 'target-arrow-color': '#334155', 'target-arrow-shape': 'triangle', 'curve-style': 'haystack', 'arrow-scale': 0.5, 'opacity': 0.3 } },
+      { selector: 'edge[label="next"]', style: { 'width': 2, 'line-color': '#fbbf24', 'opacity': 0.6, 'curve-style': 'unbundled-bezier', 'target-arrow-shape': 'none' } },
+      { selector: ':selected', style: { 'border-width': 3, 'border-color': '#fbbf24', 'border-opacity': 1 } }
+    ],
+    layout: { name: 'cose', fit: true, padding: 50, nodeRepulsion: 8000, idealEdgeLength: 100, gravity: 0.5 },
+    wheelSensitivity: 0.4
+  });
+
+  cy.nodes().on('tap', function(e) {
+    var node = e.target;
+    if (!node.isNode || !node.isNode()) return;
+    showInfo(node.data());
+  });
+
+  document.getElementById('hint').style.opacity = '0';
+  setTimeout(function() { document.getElementById('hint').style.display = 'none'; }, 2000);
+  updateStats();
+}
+
+function showInfo(d) {
+  var el = document.getElementById('info-content');
+  var tags = (d.type === 'raw_article') ? '<div class="tags"><span>#' + d.type + '</span></div>' : '';
+  var desc = d.description ? '<div class="desc">' + d.description + '</div>' : '';
+  var link = d.url ? '<a href="' + d.url + '" target="_blank">🔗 Read full edition →</a>' : '';
+  el.innerHTML = '<span class="tp">' + (d.type || 'node') + '</span><h2>' + (d.full_title || d.label || '') + '</h2>' + desc + tags + link;
+  document.getElementById('info').style.display = 'block';
+}
+
+function closeInfo() { document.getElementById('info').style.display = 'none'; }
+
+function filter(type) {
+  var btns = document.querySelectorAll('.ctrls button');
+  btns.forEach(function(b) { b.classList.remove('on'); });
+  event.target.classList.add('on');
+  if (!cy) return;
+  if (type === 'all') {
+    cy.nodes().show();
+    cy.edges().show();
+  } else {
+    cy.nodes().forEach(function(n) {
+      if (n.data('type') === type) n.show();
+      else n.hide();
+    });
+    cy.edges().forEach(function(e) {
+      var src = e.source();
+      var tgt = e.target();
+      if (src.visible() && tgt.visible()) e.show();
+      else e.hide();
+    });
+  }
+  updateStats();
+}
+
+function layout(name) {
+  if (!cy) return;
+  var opts = { fit: true, padding: 50, animate: true, duration: 500 };
+  if (name === 'grid') opts.name = 'grid';
+  else if (name === 'breadthfirst') { opts.name = 'breadthfirst'; opts.roots = '#edmo'; }
+  else { opts.name = 'cose'; opts.nodeRepulsion = 8000; opts.idealEdgeLength = 100; opts.gravity = 0.5; }
+  cy.layout(opts);
+}
+
+function buildLegend() {
+  var items = [
+    { color: '#3b82f6', label: 'Entity (EDMO)' },
+    { color: '#10b981', label: 'Issue (Weekly Pulse)' },
+    { color: '#8b5cf6', label: 'Concept: AI Content' },
+    { color: '#ef4444', label: 'Concept: Disinformation' },
+    { color: '#f59e0b', label: 'Concept: Elections' },
+    { color: '#10b981', label: 'Concept: Climate' },
+    { color: '#f97316', label: 'Concept: Migration' },
+    { color: '#fbbf24', label: 'Sequence (next issue)' },
+  ];
+  var h = items.map(function(i) {
+    return '<div class="r"><div class="d" style="background:' + i.color + '"></div>' + i.label + '</div>';
+  }).join('');
+  document.getElementById('legend').innerHTML = h;
+}
+
+function updateStats() {
+  if (!cy) return;
+  var vn = cy.nodes(':visible').length;
+  var ve = cy.edges(':visible').length;
+  document.getElementById('stats').textContent = vn + '/' + DATA.nodes.length + ' nodes · ' + ve + ' edges';
+}
+
+init();
+</script>
+</body>
+</html>
