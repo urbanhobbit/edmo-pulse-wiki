@@ -7,7 +7,7 @@
         "type": "entity",
         "color": "#3b82f6",
         "description": "European Digital Media Observatory",
-        "degree": 22
+        "degree": 23
       }
     },
     {
@@ -16,58 +16,58 @@
         "label": "Dezenformasyon",
         "type": "concept",
         "color": "#ef4444",
-        "degree": 14,
+        "degree": 15,
         "description": "Kavram: Dezenformasyon"
       }
     },
     {
       "data": {
         "id": "elections",
-        "label": "Se\u00e7im Dezenformasyonu",
+        "label": "Seçim Dezenformasyonu",
         "type": "concept",
         "color": "#f59e0b",
-        "degree": 8,
-        "description": "Kavram: Se\u00e7im Dezenformasyonu"
+        "degree": 9,
+        "description": "Kavram: Seçim Dezenformasyonu"
       }
     },
     {
       "data": {
         "id": "ai-content",
-        "label": "AI \u00dcretimi \u0130\u00e7erik",
+        "label": "AI Üretimi İçerik",
         "type": "concept",
         "color": "#8b5cf6",
-        "degree": 7,
-        "description": "Kavram: AI \u00dcretimi \u0130\u00e7erik"
+        "degree": 8,
+        "description": "Kavram: AI Üretimi İçerik"
       }
     },
     {
       "data": {
         "id": "climate-disinfo",
-        "label": "\u0130klim Dezenformasyonu",
+        "label": "İklim Dezenformasyonu",
         "type": "concept",
         "color": "#10b981",
         "degree": 4,
-        "description": "Kavram: \u0130klim Dezenformasyonu"
+        "description": "Kavram: İklim Dezenformasyonu"
       }
     },
     {
       "data": {
         "id": "migration",
-        "label": "G\u00f6\u00e7 ve Su\u00e7 Anlat\u0131lar\u0131",
+        "label": "Göç ve Suç Anlatıları",
         "type": "concept",
         "color": "#f97316",
         "degree": 3,
-        "description": "Kavram: G\u00f6\u00e7 ve Su\u00e7 Anlat\u0131lar\u0131"
+        "description": "Kavram: Göç ve Suç Anlatıları"
       }
     },
     {
       "data": {
         "id": "platform-governance",
-        "label": "Platform Y\u00f6neti\u015fimi",
+        "label": "Platform Yönetişimi",
         "type": "concept",
         "color": "#06b6d4",
-        "degree": 5,
-        "description": "Kavram: Platform Y\u00f6neti\u015fimi"
+        "degree": 6,
+        "description": "Kavram: Platform Yönetişimi"
       }
     },
     {
@@ -83,11 +83,11 @@
     {
       "data": {
         "id": "media-literacy",
-        "label": "Medya Okuryazarl\u0131\u011f\u0131",
+        "label": "Medya Okuryazarlığı",
         "type": "concept",
         "color": "#14b8a6",
         "degree": 2,
-        "description": "Kavram: Medya Okuryazarl\u0131\u011f\u0131"
+        "description": "Kavram: Medya Okuryazarlığı"
       }
     },
     {
@@ -132,7 +132,7 @@
         "label": "July 2026",
         "type": "concept",
         "color": "#64748b",
-        "degree": 1
+        "degree": 2
       }
     },
     {
@@ -141,7 +141,7 @@
         "label": "March 26 2026",
         "type": "raw_article",
         "color": "#10b981",
-        "full_title": "AI-Generated Content Shaping European Perceptions of Gulf Co",
+        "full_title": "AI-Generated Content Shaping European Perceptions of Gulf Conflicts",
         "description": "AI-generated content shaping European perceptions of Gulf conflicts. Foreign influence operations in the Baltics. Disinformation surrounding the Artemis II mission.",
         "url": "https://edmo.eu/publications/?s=weekly+pulse+26+march",
         "degree": 5
@@ -165,8 +165,8 @@
         "label": "April 16 2026",
         "type": "raw_article",
         "color": "#10b981",
-        "full_title": "Orb\u00e1n Has Been Defeated, But What Comes Next?",
-        "description": "Post-Orb\u00e1n Hungary disinformation landscape. Political ads evade moderation. Gen-AI content and election integrity. Bulgarian electoral disinformation. Drones in the Baltics and Russian propaganda. Ch",
+        "full_title": "Orbán Has Been Defeated, But What Comes Next?",
+        "description": "Post-Orbán Hungary disinformation landscape. Political ads evade moderation. Gen-AI content and election integrity. Bulgarian electoral disinformation. Drones in the Baltics and Russian propaganda.",
         "url": "https://edmo.eu/publications/orban-has-been-defeated-but-what-comes-next/",
         "degree": 6
       }
@@ -178,7 +178,7 @@
         "type": "raw_article",
         "color": "#10b981",
         "full_title": "AI Slop: How Greed Is Affecting Democracies",
-        "description": "AI slop content flooding platforms. Fake AI feel-good stories in Malta. Telegram as Bulgarian elections blindspot. Pope Leo XIV vs Trump false claims. The importance of united and socially aware resea",
+        "description": "AI slop content flooding platforms. Fake AI feel-good stories in Malta. Telegram as Bulgarian elections blindspot. Pope Leo XIV vs Trump false claims. The importance of united and socially aware research.",
         "url": "https://edmo.eu/publications/ai-slop-how-greed-is-affecting-democracies/",
         "degree": 7
       }
@@ -189,8 +189,8 @@
         "label": "April 30 2026",
         "type": "raw_article",
         "color": "#10b981",
-        "full_title": "Trump's Assassination Attempts and Related Disinformation Ar",
-        "description": "Disinformation narratives surrounding Trump assassination attempts. Vaccine misinformation in Italy. French election disinformation ecosystem. AI-generated content and electoral integrity. Deepfakes i",
+        "full_title": "Trump's Assassination Attempts and Related Disinformation Are Two Sides of the Same Coin",
+        "description": "Disinformation narratives surrounding Trump assassination attempts. Vaccine misinformation in Italy. French election disinformation ecosystem. AI-generated content and electoral integrity. Deepfakes in political campaigns.",
         "url": "https://edmo.eu/publications/trumps-assassination-attempts-and-related-disinformation-are-two-sides-of-the-same-coin/",
         "degree": 7
       }
@@ -201,7 +201,7 @@
         "label": "May 7 2026",
         "type": "raw_article",
         "color": "#10b981",
-        "full_title": "From Zelensky to Magyar: Old and New Attempts at Disinformat",
+        "full_title": "From Zelensky to Magyar: Old and New Attempts at Disinformation-Driven Character Assassination",
         "description": "Disinformation-driven character assassination targeting Zelensky and Magyar. Romanian elections disinformation. UK local elections and AI-generated content. Climate disinformation narratives.",
         "url": "https://edmo.eu/publications/from-zelensky-to-magyar-old-and-new-attempts-at-disinformation-driven-character-assassination/",
         "degree": 7
@@ -213,7 +213,7 @@
         "label": "May 14 2026",
         "type": "raw_article",
         "color": "#10b981",
-        "full_title": "Hantavirus-Related Disinformation, a New Menace for Bodies a",
+        "full_title": "Hantavirus-Related Disinformation, a New Menace for Bodies and Minds?",
         "description": "Hantavirus disinformation and health misinformation. AI-generated political content in Baltic states. Russian disinformation campaigns. Disinformation narratives around migration and crime.",
         "url": "https://edmo.eu/publications/hantavirus-related-disinformation-a-new-menace-for-bodies-and-minds/",
         "degree": 6
@@ -225,8 +225,8 @@
         "label": "May 21 2026",
         "type": "raw_article",
         "color": "#10b981",
-        "full_title": "Crime, Migrants and Disinformation: An Online Banquet for Ex",
-        "description": "Crime and migration disinformation fueling extremism. Romanian presidential election interference. German AfD AI-generated content. Disinformation about Ukraine war narratives. Platform accountability",
+        "full_title": "Crime, Migrants and Disinformation: An Online Banquet for Extremists, a Real-World Danger for Societies",
+        "description": "Crime and migration disinformation fueling extremism. Romanian presidential election interference. German AfD AI-generated content. Disinformation about Ukraine war narratives. Platform accountability gaps.",
         "url": "https://edmo.eu/publications/crime-migrants-and-disinformation-an-online-banquet-for-extremists-a-real-world-danger-for-societies/",
         "degree": 7
       }
@@ -237,8 +237,8 @@
         "label": "May 29 2026",
         "type": "raw_article",
         "color": "#10b981",
-        "full_title": "AI-Political Influencers: The New Gods of Propaganda and Dis",
-        "description": "AI-powered political influencers as new propaganda vectors. Spanish local elections disinformation. Deepfake detection advances. Russian information operations in Eastern Europe. Media literacy respon",
+        "full_title": "AI-Political Influencers: The New Gods of Propaganda and Disinformation?",
+        "description": "AI-powered political influencers as new propaganda vectors. Spanish local elections disinformation. Deepfake detection advances. Russian information operations in Eastern Europe. Media literacy response.",
         "url": "https://edmo.eu/publications/ai-political-influencers-the-new-gods-of-propaganda-and-disinformation/",
         "degree": 7
       }
@@ -249,8 +249,8 @@
         "label": "June 4 2026",
         "type": "raw_article",
         "color": "#10b981",
-        "full_title": "The Same Old Story \u2013 A Heat Wave of Climate Disinformation",
-        "description": "Climate disinformation during European heatwave. Chromatic change conspiracy theory. Solar energy misinformation. AI-generated climate content. Election disinformation in multiple EU countries. Fact-c",
+        "full_title": "The Same Old Story – A Heat Wave of Climate Disinformation",
+        "description": "Climate disinformation during European heatwave. Chromatic change conspiracy theory. Solar energy misinformation. AI-generated climate content. Election disinformation in multiple EU countries. Fact-checking coordination.",
         "url": "https://edmo.eu/publications/the-same-old-story-a-heat-wave-of-climate-disinformation/",
         "degree": 7
       }
@@ -261,7 +261,7 @@
         "label": "June 11 2026",
         "type": "raw_article",
         "color": "#10b981",
-        "full_title": "Incident or Deliberate Action? Drone Crashes Are Always Good",
+        "full_title": "Incident or Deliberate Action? Drone Crashes Are Always Good for Spreading Conspiracy Theories and Fearmongering",
         "description": "Drone crash conspiracy theories. Disinformation about European defense. Romanian election interference update. Russian narratives about Baltic security. Platform content moderation challenges.",
         "url": "https://edmo.eu/publications/incident-or-deliberate-action-it-doesnt-matter-drone-crashes-are-always-good-for-spreading-conspiracy-theories-and-fearmongering/",
         "degree": 6
@@ -274,7 +274,7 @@
         "type": "raw_article",
         "color": "#10b981",
         "full_title": "Dublin, Southport, Belfast: Who Is Fanning the Flames?",
-        "description": "Disinformation following violent incidents in Ireland and UK. Far-right exploitation of tragedies. French legislative elections disinformation. Anti-immigration narratives. Social media platform accou",
+        "description": "Disinformation following violent incidents in Ireland and UK. Far-right exploitation of tragedies. French legislative elections disinformation. Anti-immigration narratives. Social media platform accountability.",
         "url": "https://edmo.eu/publications/dublin-southport-belfast-who-is-fanning-the-flames/",
         "degree": 7
       }
@@ -286,7 +286,7 @@
         "type": "raw_article",
         "color": "#10b981",
         "full_title": "The World Cup of Hypersexualized Fakes?",
-        "description": "AI-generated non-consensual intimate content during World Cup. Deepfake pornography and platform responsibility. Electoral disinformation in multiple EU countries. Russian information operations. Digi",
+        "description": "AI-generated non-consensual intimate content during World Cup. Deepfake pornography and platform responsibility. Electoral disinformation in multiple EU countries. Russian information operations. Digital literacy needs.",
         "url": "https://edmo.eu/publications/the-world-cup-of-hypersexualized-fakes/",
         "degree": 7
       }
@@ -297,9 +297,21 @@
         "label": "July 3 2026",
         "type": "raw_article",
         "color": "#10b981",
-        "full_title": "Climate Change Denialism, and How to Shoot the Messenger to ",
-        "description": "Climate change denialism during European heatwave. Chromatic change conspiracy theory. Solar energy misinformation. Moldovan crypto election interference. Crimea sovereignty disinformation. Grooming g",
+        "full_title": "Climate Change Denialism, and How to Shoot the Messenger to Ignore the Message",
+        "description": "Climate change denialism during European heatwave. Chromatic change conspiracy theory. Solar energy misinformation. Moldovan crypto election interference. Crimea sovereignty disinformation. Grooming gang disinformation in Britain. Google Gemini AI video generator risks.",
         "url": "https://edmo.eu/publications/climate-change-denialism-and-how-to-shoot-the-messenger-to-ignore-the-message/",
+        "degree": 7
+      }
+    },
+    {
+      "data": {
+        "id": "2026-07-09-edmo-pulse",
+        "label": "July 9 2026",
+        "type": "raw_article",
+        "color": "#10b981",
+        "full_title": "Europe Caught in the Crossfire of NATO-related Disinformation",
+        "description": "NATO disinformation in the lead-up to the Ankara summit. Ukraine drone attack conspiracy theories. Claims about French mercenaries debunked. German social housing vs Ukraine aid narratives. AI video fake about German electoral law. Romanian coordinated Facebook amplification.",
+        "url": "https://edmo.eu/publications/europe-caught-in-the-crossfire-of-nato-related-disinformation/",
         "degree": 7
       }
     }
@@ -494,14 +506,6 @@
         "id": "2026-04-23-edmo-pulse-disinformation",
         "source": "2026-04-23-edmo-pulse",
         "target": "disinformation",
-        "label": "about"
-      }
-    },
-    {
-      "data": {
-        "id": "2026-04-23-edmo-pulse-platform-governance",
-        "source": "2026-04-23-edmo-pulse",
-        "target": "platform-governance",
         "label": "about"
       }
     },
@@ -899,6 +903,54 @@
     },
     {
       "data": {
+        "id": "edmo-2026-07-09-edmo-pulse",
+        "source": "edmo",
+        "target": "2026-07-09-edmo-pulse",
+        "label": "published"
+      }
+    },
+    {
+      "data": {
+        "id": "2026-07-09-edmo-pulse-jul-2026",
+        "source": "2026-07-09-edmo-pulse",
+        "target": "jul-2026",
+        "label": "in"
+      }
+    },
+    {
+      "data": {
+        "id": "2026-07-09-edmo-pulse-disinformation",
+        "source": "2026-07-09-edmo-pulse",
+        "target": "disinformation",
+        "label": "about"
+      }
+    },
+    {
+      "data": {
+        "id": "2026-07-09-edmo-pulse-elections",
+        "source": "2026-07-09-edmo-pulse",
+        "target": "elections",
+        "label": "about"
+      }
+    },
+    {
+      "data": {
+        "id": "2026-07-09-edmo-pulse-ai-content",
+        "source": "2026-07-09-edmo-pulse",
+        "target": "ai-content",
+        "label": "about"
+      }
+    },
+    {
+      "data": {
+        "id": "2026-07-09-edmo-pulse-platform-governance",
+        "source": "2026-07-09-edmo-pulse",
+        "target": "platform-governance",
+        "label": "about"
+      }
+    },
+    {
+      "data": {
         "id": "2026-03-26-edmo-pulse-next-2026-04-01-edmo-pulse",
         "source": "2026-03-26-edmo-pulse",
         "target": "2026-04-01-edmo-pulse",
@@ -1010,6 +1062,15 @@
         "id": "2026-06-25-edmo-pulse-next-2026-07-03-edmo-pulse",
         "source": "2026-06-25-edmo-pulse",
         "target": "2026-07-03-edmo-pulse",
+        "label": "next",
+        "color": "#fbbf24"
+      }
+    },
+    {
+      "data": {
+        "id": "2026-07-03-edmo-pulse-next-2026-07-09-edmo-pulse",
+        "source": "2026-07-03-edmo-pulse",
+        "target": "2026-07-09-edmo-pulse",
         "label": "next",
         "color": "#fbbf24"
       }

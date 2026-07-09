@@ -21,7 +21,7 @@ Weekly Pulse, Avrupa dezenformasyon ortamındaki güncel trendleri, vakaları ve
 - **GLOBAL PULSE** — Küresel dezenformasyon anlatıları
 - **ON A DIFFERENT NOTE** — İlgili konularda kısa analizler
 
-## Tüm Sayılar (14)
+## Tüm Sayılar (15)
 
 | Tarih | Başlık |
 |---|---|
@@ -38,7 +38,8 @@ Weekly Pulse, Avrupa dezenformasyon ortamındaki güncel trendleri, vakaları ve
 | June 11, 2026 | [[raw/2026-06-11-edmo-pulse.md|Incident or Deliberate Action? Drone Crashes Are Always Good for Spreading Conspiracy Theories and Fearmongering]] |
 | June 18, 2026 | [[raw/2026-06-18-edmo-pulse.md|Dublin, Southport, Belfast: Who Is Fanning the Flames?]] |
 | June 25, 2026 | [[raw/2026-06-25-edmo-pulse.md|The World Cup of Hypersexualized Fakes?]] |
-| July 3, 2026 | [[raw/2026-07-03-edmo-pulse.md|Climate Change Denialism, and How to Shoot the Messenger to Ignore the Message]] |
+|| July 3, 2026 | [[raw/2026-07-03-edmo-pulse.md|Climate Change Denialism, and How to Shoot the Messenger to Ignore the Message]] |
+|| July 9, 2026 | [[raw/2026-07-09-edmo-pulse.md|Europe Caught in the Crossfire of NATO-related Disinformation]] |
 
 ## Künye
 
