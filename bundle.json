@@ -7,7 +7,7 @@
         "type": "entity",
         "color": "#3b82f6",
         "description": "European Digital Media Observatory",
-        "degree": 23
+        "degree": 24
       }
     },
     {
@@ -132,7 +132,7 @@
         "label": "July 2026",
         "type": "concept",
         "color": "#64748b",
-        "degree": 2
+        "degree": 3
       }
     },
     {
@@ -313,6 +313,18 @@
         "description": "NATO disinformation in the lead-up to the Ankara summit. Ukraine drone attack conspiracy theories. Claims about French mercenaries debunked. German social housing vs Ukraine aid narratives. AI video fake about German electoral law. Romanian coordinated Facebook amplification.",
         "url": "https://edmo.eu/publications/europe-caught-in-the-crossfire-of-nato-related-disinformation/",
         "degree": 7
+      }
+    },
+    {
+      "data": {
+        "id": "2026-07-16-edmo-pulse",
+        "label": "July 16 2026",
+        "type": "raw_article",
+        "color": "#10b981",
+        "full_title": "So much the worse for the facts?",
+        "description": "Disinformation's ability to maintain appearance despite contradictory facts. Russian NATO disinformation. US EU-censorship false claims. FIFA World Cup racist/Islamophobic disinformation. AI funeral images for Iran propaganda. Anti-NATO disinformation at Ankara summit. AI-generated videos and platform responsibility.",
+        "url": "https://edmo.eu/publications/so-much-the-worse-for-the-facts/",
+        "degree": 4
       }
     }
   ],
@@ -1071,6 +1083,63 @@
         "id": "2026-07-03-edmo-pulse-next-2026-07-09-edmo-pulse",
         "source": "2026-07-03-edmo-pulse",
         "target": "2026-07-09-edmo-pulse",
+        "label": "next",
+        "color": "#fbbf24"
+      }
+    },
+    {
+      "data": {
+        "id": "edmo-2026-07-16-edmo-pulse",
+        "source": "edmo",
+        "target": "2026-07-16-edmo-pulse",
+        "label": "published"
+      }
+    },
+    {
+      "data": {
+        "id": "2026-07-16-edmo-pulse-jul-2026",
+        "source": "2026-07-16-edmo-pulse",
+        "target": "jul-2026",
+        "label": "in"
+      }
+    },
+    {
+      "data": {
+        "id": "2026-07-16-edmo-pulse-disinformation",
+        "source": "2026-07-16-edmo-pulse",
+        "target": "disinformation",
+        "label": "about"
+      }
+    },
+    {
+      "data": {
+        "id": "2026-07-16-edmo-pulse-ai-content",
+        "source": "2026-07-16-edmo-pulse",
+        "target": "ai-content",
+        "label": "about"
+      }
+    },
+    {
+      "data": {
+        "id": "2026-07-16-edmo-pulse-platform-governance",
+        "source": "2026-07-16-edmo-pulse",
+        "target": "platform-governance",
+        "label": "about"
+      }
+    },
+    {
+      "data": {
+        "id": "2026-07-16-edmo-pulse-climate-disinfo",
+        "source": "2026-07-16-edmo-pulse",
+        "target": "climate-disinfo",
+        "label": "about"
+      }
+    },
+    {
+      "data": {
+        "id": "2026-07-09-edmo-pulse-next-2026-07-16-edmo-pulse",
+        "source": "2026-07-09-edmo-pulse",
+        "target": "2026-07-16-edmo-pulse",
         "label": "next",
         "color": "#fbbf24"
       }
