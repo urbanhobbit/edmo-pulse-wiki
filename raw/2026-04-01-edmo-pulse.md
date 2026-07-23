@@ -1,7 +1,7 @@
 ---
 title: "EDMO Weekly Pulse — April 1, 2026"
 source: "EDMO"
-url: "https://edmo.eu/publications/?s=weekly+pulse+1+april"
+url: "https://edmo.eu/publications/a-dystopian-electoral-campaign-will-be-over-soon-in-hungary-but-disinformations-damages-are-here-to-stay/"
 date: "April 1, 2026"
 type: "weekly-pulse-issue"
 sections:
@@ -27,7 +27,7 @@ Hungarian electoral campaign disinformation. Lasting damage of disinformation ca
 
 ### Full Edition
 
-➡️ [Read the full edition on EDMO](https://edmo.eu/publications/?s=weekly+pulse+1+april)
+➡️ [Read the full edition on EDMO](https://edmo.eu/publications/a-dystopian-electoral-campaign-will-be-over-soon-in-hungary-but-disinformations-damages-are-here-to-stay/)
 
 ---
 

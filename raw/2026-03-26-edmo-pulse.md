@@ -1,7 +1,7 @@
 ---
 title: "EDMO Weekly Pulse — March 26, 2026"
 source: "EDMO"
-url: "https://edmo.eu/publications/?s=weekly+pulse+26+march"
+url: "https://edmo.eu/publications/ai-and-more-shaping-gulf-war-perceptions-in-europe/"
 date: "March 26, 2026"
 type: "weekly-pulse-issue"
 sections:
@@ -26,7 +26,7 @@ AI-generated content shaping European perceptions of Gulf conflicts. Foreign inf
 
 ### Full Edition
 
-➡️ [Read the full edition on EDMO](https://edmo.eu/publications/?s=weekly+pulse+26+march)
+➡️ [Read the full edition on EDMO](https://edmo.eu/publications/ai-and-more-shaping-gulf-war-perceptions-in-europe/)
 
 ---
 
