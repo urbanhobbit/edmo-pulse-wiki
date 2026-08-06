@@ -24,3 +24,10 @@
 - Date: July 16, 2026
 - URL: https://edmo.eu/publications/so-much-the-worse-for-the-facts/
 - Total issues: 16
+
+## [2026-08-06] New Issue (committed late)
+- New issue: **EDMO defending election integrity via the RRS: True transparency and censorship nonsense**
+- Date: July 24, 2026
+- URL: https://edmo.eu/publications/edmo-defending-election-integrity-via-the-rrs-true-transparency-and-censorship-nonsense/
+- Total issues: 17
+- Note: Issue was ingested on 2026-07-28 but never committed; this commit also repairs regressions from that run (restored 03-26/04-01 article URLs, restored detailed 07-09/07-16 content, fixed article_tags_map, preserved log history)

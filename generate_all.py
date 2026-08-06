@@ -11,7 +11,7 @@ ARTICLES = [
         "slug": "2026-03-26-edmo-pulse",
         "date": "March 26, 2026",
         "title": "AI-Generated Content Shaping European Perceptions of Gulf Conflicts",
-        "url": "https://edmo.eu/publications/?s=weekly+pulse+26+march",
+        "url": "https://edmo.eu/publications/ai-and-more-shaping-gulf-war-perceptions-in-europe/",
         "sections": ["GLOBAL PULSE"],
         "summary": "AI-generated content shaping European perceptions of Gulf conflicts. Foreign influence operations in the Baltics. Disinformation surrounding the Artemis II mission."
     },
@@ -19,7 +19,7 @@ ARTICLES = [
         "slug": "2026-04-01-edmo-pulse",
         "date": "April 1, 2026",
         "title": "Hungarian Electoral Campaign Disinformation",
-        "url": "https://edmo.eu/publications/?s=weekly+pulse+1+april",
+        "url": "https://edmo.eu/publications/a-dystopian-electoral-campaign-will-be-over-soon-in-hungary-but-disinformations-damages-are-here-to-stay/",
         "sections": ["ELECTION BEAT"],
         "summary": "Hungarian electoral campaign disinformation. Lasting damage of disinformation campaigns. Prebunking false flag operations before the Hungarian elections."
     },
@@ -119,6 +119,30 @@ ARTICLES = [
         "sections": ["ON THE RISE", "ZOOM-IN", "ELECTION BEAT", "GLOBAL PULSE", "ON A DIFFERENT NOTE"],
         "summary": "Climate change denialism during European heatwave. Chromatic change conspiracy theory. Solar energy misinformation. Moldovan crypto election interference. Crimea sovereignty disinformation. Grooming gang disinformation in Britain. Google Gemini AI video generator risks."
     },
+    {
+        "slug": "2026-07-09-edmo-pulse",
+        "date": "July 9, 2026",
+        "title": "Europe Caught in the Crossfire of NATO-related Disinformation",
+        "url": "https://edmo.eu/publications/europe-caught-in-the-crossfire-of-nato-related-disinformation/",
+        "sections": ["ON THE RISE", "ZOOM-IN", "ELECTION BEAT", "GLOBAL PULSE", "ON A DIFFERENT NOTE"],
+        "summary": "NATO disinformation in the lead-up to the Ankara summit. Ukraine drone attack conspiracy theories. Claims about French mercenaries in Ukraine debunked. German social housing vs Ukraine aid misleading narratives. AI video fake about German electoral law. Romanian coordinated Facebook amplification. Russian deflection on Kyiv Pechory Lavra attack. KGB-Palestinian flag myth debunked. RT returns to X despite EU sanctions."
+    },
+    {
+        "slug": "2026-07-16-edmo-pulse",
+        "date": "July 16, 2026",
+        "title": "So much the worse for the facts?",
+        "url": "https://edmo.eu/publications/so-much-the-worse-for-the-facts/",
+        "sections": ["ON THE RISE", "ZOOM-IN", "ELECTION BEAT", "GLOBAL PULSE", "ON A DIFFERENT NOTE"],
+        "summary": "Disinformation's ability to maintain the appearance of being right even when reality proves otherwise. Russian disinformation fabricates evidence of NATO troops in Ukraine; US disinformation claims EU censors free speech. The FIFA World Cup fuels racist and Islamophobic disinformation with decontextualized old videos. AI funeral images inflate support for Iran's former Supreme Leader. Anti-NATO disinformation surges around Ankara summit. World Cup deepfakes and match-fixing allegations. Wildfire conspiracy theories target renewable energy projects."
+    },
+    {
+        "slug": "2026-07-24-edmo-pulse",
+        "date": "July 24, 2026",
+        "title": "EDMO defending election integrity via the RRS: True transparency and censorship nonsense",
+        "url": "https://edmo.eu/publications/edmo-defending-election-integrity-via-the-rrs-true-transparency-and-censorship-nonsense/",
+        "sections": ["ON THE RISE", "ZOOM-IN", "GLOBAL PULSE", "ON A DIFFERENT NOTE"],
+        "summary": "Rapid Response System (RRS) transparency. US disinformation campaign against EU digital regulation. Electoral disinformation in Hungary, Bulgaria, Cyprus, Malta. Russian campaign ahead of German elections. Operation Apostle in Malta. Iran/US bases claims. Ukraine war maps. Heatwave conspiracies. Falklands sovereignty debate. European Parliament welcomes EDMO and Media Literacy Expert Group."
+    }
 ]
 
 def make_page(a):
@@ -180,6 +204,9 @@ os.makedirs(f"{WIKI}/entities", exist_ok=True)
 
 for a in ARTICLES:
     path = f"{WIKI}/raw/{a['slug']}.md"
+    if os.path.exists(path):
+        print(f"  ⏭️ {a['slug']}.md (exists, skipped)")
+        continue
     with open(path, 'w') as f:
         f.write(make_page(a))
     print(f"  ✅ {a['slug']}.md")
@@ -361,6 +388,9 @@ article_tags_map = {
     "2026-06-18-edmo-pulse": ["migration", "disinformation", "platform-governance"],
     "2026-06-25-edmo-pulse": ["deepfakes", "ai-content", "platform-governance"],
     "2026-07-03-edmo-pulse": ["climate-disinfo", "disinformation", "elections", "ai-content"],
+    "2026-07-09-edmo-pulse": ["disinformation", "elections", "ai-content", "platform-governance"],
+    "2026-07-16-edmo-pulse": ["disinformation", "ai-content", "platform-governance", "climate-disinfo"],
+    "2026-07-24-edmo-pulse": ["disinformation", "elections", "platform-governance"],
 }
 
 month_of = {
@@ -641,9 +671,13 @@ log_md = f"""# EDMO Pulse Wiki — Change Log
 - Source: https://edmo.eu/pulse/
 """
 
-with open(f"{WIKI}/log.md", 'w') as f:
-    f.write(log_md)
-print("  ✅ log.md")
+log_path = f"{WIKI}/log.md"
+if os.path.exists(log_path):
+    print("  ⏭️ log.md exists (append manually — history preserved)")
+else:
+    with open(log_path, 'w') as f:
+        f.write(log_md)
+    print("  ✅ log.md")
 
 # README
 readme = f"""# EDMO Weekly Pulse Wiki

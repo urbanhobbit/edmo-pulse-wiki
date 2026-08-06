@@ -21,7 +21,7 @@ Weekly Pulse, Avrupa dezenformasyon ortamındaki güncel trendleri, vakaları ve
 - **GLOBAL PULSE** — Küresel dezenformasyon anlatıları
 - **ON A DIFFERENT NOTE** — İlgili konularda kısa analizler
 
-## Tüm Sayılar (16)
+## Tüm Sayılar (17)
 
 | Tarih | Başlık |
 |---|---|
@@ -41,6 +41,7 @@ Weekly Pulse, Avrupa dezenformasyon ortamındaki güncel trendleri, vakaları ve
 | July 3, 2026 | [[raw/2026-07-03-edmo-pulse.md|Climate Change Denialism, and How to Shoot the Messenger to Ignore the Message]] |
 | July 9, 2026 | [[raw/2026-07-09-edmo-pulse.md|Europe Caught in the Crossfire of NATO-related Disinformation]] |
 | July 16, 2026 | [[raw/2026-07-16-edmo-pulse.md|So much the worse for the facts?]] |
+| July 24, 2026 | [[raw/2026-07-24-edmo-pulse.md|EDMO defending election integrity via the RRS: True transparency and censorship nonsense]] |
 
 ## Künye
 

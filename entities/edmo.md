@@ -24,6 +24,9 @@ sources:
   - raw/2026-06-18-edmo-pulse.md
   - raw/2026-06-25-edmo-pulse.md
   - raw/2026-07-03-edmo-pulse.md
+  - raw/2026-07-09-edmo-pulse.md
+  - raw/2026-07-16-edmo-pulse.md
+  - raw/2026-07-24-edmo-pulse.md
 ---
 
 # European Digital Media Observatory (EDMO)
@@ -62,3 +65,6 @@ AB'nin en büyük disiplinlerarası dezenformasyonla mücadele ağı. **European
 - [[raw/2026-06-18-edmo-pulse.md|June 18, 2026 — Dublin, Southport, Belfast: Who Is Fanning the Flames?]]
 - [[raw/2026-06-25-edmo-pulse.md|June 25, 2026 — The World Cup of Hypersexualized Fakes?]]
 - [[raw/2026-07-03-edmo-pulse.md|July 3, 2026 — Climate Change Denialism, and How to Shoot the Messenger to Ignore the Message]]
+- [[raw/2026-07-09-edmo-pulse.md|July 9, 2026 — Europe Caught in the Crossfire of NATO-related Disinformation]]
+- [[raw/2026-07-16-edmo-pulse.md|July 16, 2026 — So much the worse for the facts?]]
+- [[raw/2026-07-24-edmo-pulse.md|July 24, 2026 — EDMO defending election integrity via the RRS: True transparency and censorship nonsense]]

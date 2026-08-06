@@ -2,7 +2,7 @@
 
 EDMO Weekly Pulse bültenlerinin wiki arşivi ve görselleştirmesi.
 
-- **14 sayı** (Mart - Temmuz 2026)
+- **17 sayı** (Mart - Temmuz 2026)
 - **Kaynak:** [EDMO Pulse](https://edmo.eu/pulse/)
 - **Görselleştirme:** `viz.html` (Cytoscape.js)
 - **Güncelleme:** Haftalık cronjob ile otomatik
