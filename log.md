@@ -1,5 +1,12 @@
 # EDMO Pulse Wiki — Change Log
 
+## [2026-08-27] New Issue (Post-Summer Return)
+- New issue: **Ceuta Crisis: First fuelled, then exploited by disinformation**
+- Date: August 27, 2026
+- URL: https://edmo.eu/publications/ceuta-crisis-first-fuelled-then-exploited-by-disinformation/
+- Total issues: 18
+- Note: First Weekly Pulse after the summer break (returned as scheduled on 27 Aug). Ceuta migration crisis fuelled and exploited by disinformation; Maldita.es investigation on Arabic-language disinformation triggering the 70,000+ influx; far-right/Musk/Russia-linked amplification; 'second wave' recycled-video hoaxes; Swedish election disinformation; Matryoshka/Storm-1516; Trump NATO/inflation claims; Chat Control extension fact-check.
+
 ## [2026-07-08] Initial Ingest
 - Created wiki from EDMO Weekly Pulse archive
 - 14 issues ingested

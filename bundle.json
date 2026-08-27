@@ -7,7 +7,7 @@
         "type": "entity",
         "color": "#3b82f6",
         "description": "European Digital Media Observatory",
-        "degree": 25
+        "degree": 26
       }
     },
     {
@@ -16,7 +16,7 @@
         "label": "Dezenformasyon",
         "type": "concept",
         "color": "#ef4444",
-        "degree": 17,
+        "degree": 18,
         "description": "Kavram: Dezenformasyon"
       }
     },
@@ -26,7 +26,7 @@
         "label": "Se\u00e7im Dezenformasyonu",
         "type": "concept",
         "color": "#f59e0b",
-        "degree": 10,
+        "degree": 11,
         "description": "Kavram: Se\u00e7im Dezenformasyonu"
       }
     },
@@ -56,7 +56,7 @@
         "label": "G\u00f6\u00e7 ve Su\u00e7 Anlat\u0131lar\u0131",
         "type": "concept",
         "color": "#f97316",
-        "degree": 3,
+        "degree": 4,
         "description": "Kavram: G\u00f6\u00e7 ve Su\u00e7 Anlat\u0131lar\u0131"
       }
     },
@@ -133,6 +133,15 @@
         "type": "concept",
         "color": "#64748b",
         "degree": 4
+      }
+    },
+    {
+      "data": {
+        "id": "aug-2026",
+        "label": "August 2026",
+        "type": "concept",
+        "color": "#64748b",
+        "degree": 1
       }
     },
     {
@@ -336,6 +345,18 @@
         "full_title": "EDMO defending election integrity via the RRS: True transpar",
         "description": "Rapid Response System (RRS) transparency. US disinformation campaign against EU digital regulation. Electoral disinformation in Hungary, Bulgaria, Cyprus, Malta. Russian campaign ahead of German elect",
         "url": "https://edmo.eu/publications/edmo-defending-election-integrity-via-the-rrs-true-transparency-and-censorship-nonsense/",
+        "degree": 7
+      }
+    },
+    {
+      "data": {
+        "id": "2026-08-27-edmo-pulse",
+        "label": "August 27 2026",
+        "type": "raw_article",
+        "color": "#10b981",
+        "full_title": "Ceuta Crisis: First fuelled, then exploited by disinformatio",
+        "description": "Ceuta migration crisis fuelled and exploited by disinformation. Maldita.es investigation: Arabic-language disinformation triggered the mass influx of 70,000+ people into the Spanish exclave. Far-right",
+        "url": "https://edmo.eu/publications/ceuta-crisis-first-fuelled-then-exploited-by-disinformation/",
         "degree": 6
       }
     }
@@ -1071,6 +1092,46 @@
     },
     {
       "data": {
+        "id": "edmo-2026-08-27-edmo-pulse",
+        "source": "edmo",
+        "target": "2026-08-27-edmo-pulse",
+        "label": "published"
+      }
+    },
+    {
+      "data": {
+        "id": "2026-08-27-edmo-pulse-aug-2026",
+        "source": "2026-08-27-edmo-pulse",
+        "target": "aug-2026",
+        "label": "in"
+      }
+    },
+    {
+      "data": {
+        "id": "2026-08-27-edmo-pulse-migration",
+        "source": "2026-08-27-edmo-pulse",
+        "target": "migration",
+        "label": "about"
+      }
+    },
+    {
+      "data": {
+        "id": "2026-08-27-edmo-pulse-disinformation",
+        "source": "2026-08-27-edmo-pulse",
+        "target": "disinformation",
+        "label": "about"
+      }
+    },
+    {
+      "data": {
+        "id": "2026-08-27-edmo-pulse-elections",
+        "source": "2026-08-27-edmo-pulse",
+        "target": "elections",
+        "label": "about"
+      }
+    },
+    {
+      "data": {
         "id": "2026-03-26-edmo-pulse-next-2026-04-01-edmo-pulse",
         "source": "2026-03-26-edmo-pulse",
         "target": "2026-04-01-edmo-pulse",
@@ -1209,6 +1270,15 @@
         "id": "2026-07-16-edmo-pulse-next-2026-07-24-edmo-pulse",
         "source": "2026-07-16-edmo-pulse",
         "target": "2026-07-24-edmo-pulse",
+        "label": "next",
+        "color": "#fbbf24"
+      }
+    },
+    {
+      "data": {
+        "id": "2026-07-24-edmo-pulse-next-2026-08-27-edmo-pulse",
+        "source": "2026-07-24-edmo-pulse",
+        "target": "2026-08-27-edmo-pulse",
         "label": "next",
         "color": "#fbbf24"
       }
