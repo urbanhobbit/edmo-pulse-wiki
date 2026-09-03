@@ -150,6 +150,14 @@ ARTICLES = [
         "url": "https://edmo.eu/publications/ceuta-crisis-first-fuelled-then-exploited-by-disinformation/",
         "sections": ["ON THE RISE", "ZOOM-IN", "ELECTION BEAT", "GLOBAL PULSE", "ON A DIFFERENT NOTE"],
         "summary": "Ceuta migration crisis fuelled and exploited by disinformation. Maldita.es investigation: Arabic-language disinformation triggered the mass influx of 70,000+ people into the Spanish exclave. Far-right networks, Elon Musk and Russia-linked accounts amplified 'invasion' and 'colony' narratives. Recycled videos spark 'second wave' fears. Asylum myths about Moroccans in Spain. 'Dublinants' transfers to Italy under new AMMR rules. Distorted German migration statistics. Swedish ID-less voting backlash and AI-generated election hoaxes. Matryoshka/Storm-1516 target French presidential candidates. Trump NATO spending and inflation claims debunked. Chat Control extension fact-checked. Falklands sovereignty debate. Declining trust in journalism per Reuters Digital News Report 2026."
+    },
+    {
+        "slug": "2026-09-03-edmo-pulse",
+        "date": "September 3, 2026",
+        "title": "They're (not) eating the cats, again",
+        "url": "https://edmo.eu/publications/theyre-not-eating-the-cats-again/",
+        "sections": ["ON THE RISE", "ZOOM-IN", "ELECTION BEAT", "GLOBAL PULSE", "ON A DIFFERENT NOTE"],
+        "summary": "Anti-migrant pet-eating hoax resurfaces after the Ceuta crisis: 'They're (not) eating the cats, again' examines the viral false claim that migrants abuse animals — a classic dehumanisation strategy with Trump's 2024 Haiti precedent, now targeting Moroccan migrants (previously framed as 'zombies'). AI-generated outrage: Chequeado maps fake migrants, protests and voters spreading transnationally (London AI 'migrant neighbourhoods', a fabricated Muslim mayoral candidate in Germany, Mexico AI images of Venezuelan migrants looting). Fact-checks: Canada church fire caused by lightning, not arson by a Muslim migrant (AFP); UK has not agreed to accommodate '4,000 Moroccans' from Ceuta (The Journal); Danish asylum figures in a Ceuta-triggered border debate. Sweden's September 13 election: Russian 'Operation Overload' impersonating news outlets (Kristersson/Ebba Busch pedophile-ring claims) and local Sweden Democrats voter-fraud posts. Germany's Saxony-Anhalt state election: AfD at ~42%, coordinated operations (Storm-1516, Doppelgänger, Matryoshka) amid Berlin's tougher line on Russia (Russian House closure). EDMO Ireland: platforms ignored ~90% of non-AI disinformation in the 2025 presidential election. Nepal glacier-flood disaster videos. 'Hanover Institute' fake think tank poisoning AI chatbots on Israel/Gaza. Iceland's 'sea barons' and the EU referendum."
     }
 ]
 
@@ -368,6 +376,7 @@ months_order = [
     ("jun-2026", "June 2026", "#64748b"),
     ("jul-2026", "July 2026", "#64748b"),
     ("aug-2026", "August 2026", "#64748b"),
+    ("sep-2026", "September 2026", "#64748b"),
 ]
 for mid, mlabel, mcolor in months_order:
     nodes.append({
@@ -401,11 +410,12 @@ article_tags_map = {
     "2026-07-16-edmo-pulse": ["disinformation", "ai-content", "platform-governance", "climate-disinfo"],
     "2026-07-24-edmo-pulse": ["disinformation", "elections", "platform-governance"],
     "2026-08-27-edmo-pulse": ["migration", "disinformation", "elections"],
+    "2026-09-03-edmo-pulse": ["migration", "disinformation", "ai-content", "elections"],
 }
 
 month_of = {
     "2026-03": "mar-2026", "2026-04": "apr-2026", "2026-05": "may-2026",
-    "2026-06": "jun-2026", "2026-07": "jul-2026", "2026-08": "aug-2026",
+    "2026-06": "jun-2026", "2026-07": "jul-2026", "2026-08": "aug-2026", "2026-09": "sep-2026",
 }
 
 for a in ARTICLES:

@@ -7,7 +7,7 @@
         "type": "entity",
         "color": "#3b82f6",
         "description": "European Digital Media Observatory",
-        "degree": 26
+        "degree": 27
       }
     },
     {
@@ -16,7 +16,7 @@
         "label": "Dezenformasyon",
         "type": "concept",
         "color": "#ef4444",
-        "degree": 18,
+        "degree": 19,
         "description": "Kavram: Dezenformasyon"
       }
     },
@@ -26,7 +26,7 @@
         "label": "Se\u00e7im Dezenformasyonu",
         "type": "concept",
         "color": "#f59e0b",
-        "degree": 11,
+        "degree": 12,
         "description": "Kavram: Se\u00e7im Dezenformasyonu"
       }
     },
@@ -36,7 +36,7 @@
         "label": "AI \u00dcretimi \u0130\u00e7erik",
         "type": "concept",
         "color": "#8b5cf6",
-        "degree": 9,
+        "degree": 10,
         "description": "Kavram: AI \u00dcretimi \u0130\u00e7erik"
       }
     },
@@ -56,7 +56,7 @@
         "label": "G\u00f6\u00e7 ve Su\u00e7 Anlat\u0131lar\u0131",
         "type": "concept",
         "color": "#f97316",
-        "degree": 4,
+        "degree": 5,
         "description": "Kavram: G\u00f6\u00e7 ve Su\u00e7 Anlat\u0131lar\u0131"
       }
     },
@@ -139,6 +139,15 @@
       "data": {
         "id": "aug-2026",
         "label": "August 2026",
+        "type": "concept",
+        "color": "#64748b",
+        "degree": 1
+      }
+    },
+    {
+      "data": {
+        "id": "sep-2026",
+        "label": "September 2026",
         "type": "concept",
         "color": "#64748b",
         "degree": 1
@@ -357,7 +366,19 @@
         "full_title": "Ceuta Crisis: First fuelled, then exploited by disinformatio",
         "description": "Ceuta migration crisis fuelled and exploited by disinformation. Maldita.es investigation: Arabic-language disinformation triggered the mass influx of 70,000+ people into the Spanish exclave. Far-right",
         "url": "https://edmo.eu/publications/ceuta-crisis-first-fuelled-then-exploited-by-disinformation/",
-        "degree": 6
+        "degree": 7
+      }
+    },
+    {
+      "data": {
+        "id": "2026-09-03-edmo-pulse",
+        "label": "September 3 2026",
+        "type": "raw_article",
+        "color": "#10b981",
+        "full_title": "They're (not) eating the cats, again",
+        "description": "Anti-migrant pet-eating hoax resurfaces after the Ceuta crisis: 'They're (not) eating the cats, again' examines the viral false claim that migrants abuse animals \u2014 a classic dehumanisation strategy wi",
+        "url": "https://edmo.eu/publications/theyre-not-eating-the-cats-again/",
+        "degree": 7
       }
     }
   ],
@@ -1132,6 +1153,54 @@
     },
     {
       "data": {
+        "id": "edmo-2026-09-03-edmo-pulse",
+        "source": "edmo",
+        "target": "2026-09-03-edmo-pulse",
+        "label": "published"
+      }
+    },
+    {
+      "data": {
+        "id": "2026-09-03-edmo-pulse-sep-2026",
+        "source": "2026-09-03-edmo-pulse",
+        "target": "sep-2026",
+        "label": "in"
+      }
+    },
+    {
+      "data": {
+        "id": "2026-09-03-edmo-pulse-migration",
+        "source": "2026-09-03-edmo-pulse",
+        "target": "migration",
+        "label": "about"
+      }
+    },
+    {
+      "data": {
+        "id": "2026-09-03-edmo-pulse-disinformation",
+        "source": "2026-09-03-edmo-pulse",
+        "target": "disinformation",
+        "label": "about"
+      }
+    },
+    {
+      "data": {
+        "id": "2026-09-03-edmo-pulse-ai-content",
+        "source": "2026-09-03-edmo-pulse",
+        "target": "ai-content",
+        "label": "about"
+      }
+    },
+    {
+      "data": {
+        "id": "2026-09-03-edmo-pulse-elections",
+        "source": "2026-09-03-edmo-pulse",
+        "target": "elections",
+        "label": "about"
+      }
+    },
+    {
+      "data": {
         "id": "2026-03-26-edmo-pulse-next-2026-04-01-edmo-pulse",
         "source": "2026-03-26-edmo-pulse",
         "target": "2026-04-01-edmo-pulse",
@@ -1279,6 +1348,15 @@
         "id": "2026-07-24-edmo-pulse-next-2026-08-27-edmo-pulse",
         "source": "2026-07-24-edmo-pulse",
         "target": "2026-08-27-edmo-pulse",
+        "label": "next",
+        "color": "#fbbf24"
+      }
+    },
+    {
+      "data": {
+        "id": "2026-08-27-edmo-pulse-next-2026-09-03-edmo-pulse",
+        "source": "2026-08-27-edmo-pulse",
+        "target": "2026-09-03-edmo-pulse",
         "label": "next",
         "color": "#fbbf24"
       }

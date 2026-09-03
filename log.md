@@ -1,5 +1,12 @@
 # EDMO Pulse Wiki — Change Log
 
+## [2026-09-03] New Issue
+- New issue: **They're (not) eating the cats, again**
+- Date: September 3, 2026
+- URL: https://edmo.eu/publications/theyre-not-eating-the-cats-again/
+- Total issues: 19
+- Note: Anti-migrant 'pet-eating' hoax resurges post-Ceuta (dehumanisation strategy with 2024 Trump/Haiti precedent; Moroccan migrants previously framed as 'zombies'). AI-generated outrage spreads transnationally (Chequeado: London AI 'migrant neighbourhoods', German fabricated Muslim mayoral candidate, Mexico AI looting images of Venezuelan migrants). Fact-checks: Canada church fire = lightning, not arson by a Muslim migrant (AFP/Poland); UK '4,000 Moroccans' accommodation claim false (The Journal/Ireland); Danish asylum figures amid Ceuta-triggered border debate. Sweden's Sep 13 election: Russian 'Operation Overload' fake news (Kristersson/Ebba Busch pedophile-ring claims) + local Sweden Democrats voter-fraud posts. Germany Saxony-Anhalt state vote: AfD ~42%, Storm-1516/Doppelgänger/Matryoshka ops; Berlin hardens line (Russian House closure). EDMO Ireland: platforms ignored ~90% of non-AI disinfo in 2025 presidential election. Nepal glacier-flood misleading videos; 'Hanover Institute' fake think tank poisoning AI chatbots on Israel/Gaza; Iceland 'sea barons' EU referendum op-ed.
+
 ## [2026-08-27] New Issue (Post-Summer Return)
 - New issue: **Ceuta Crisis: First fuelled, then exploited by disinformation**
 - Date: August 27, 2026

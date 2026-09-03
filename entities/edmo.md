@@ -28,6 +28,7 @@ sources:
   - raw/2026-07-16-edmo-pulse.md
   - raw/2026-07-24-edmo-pulse.md
   - raw/2026-08-27-edmo-pulse.md
+  - raw/2026-09-03-edmo-pulse.md
 ---
 
 # European Digital Media Observatory (EDMO)
@@ -70,3 +71,4 @@ AB'nin en büyük disiplinlerarası dezenformasyonla mücadele ağı. **European
 - [[raw/2026-07-16-edmo-pulse.md|July 16, 2026 — So much the worse for the facts?]]
 - [[raw/2026-07-24-edmo-pulse.md|July 24, 2026 — EDMO defending election integrity via the RRS: True transparency and censorship nonsense]]
 - [[raw/2026-08-27-edmo-pulse.md|August 27, 2026 — Ceuta Crisis: First fuelled, then exploited by disinformation]]
+- [[raw/2026-09-03-edmo-pulse.md|September 3, 2026 — They're (not) eating the cats, again]]
