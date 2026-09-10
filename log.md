@@ -1,5 +1,14 @@
 # EDMO Pulse Wiki — Change Log
 
+## [2026-09-10] New Issue
+- New issue: **Rewriting the past, endangering the future**
+- Date: September 10, 2026
+- URL: https://edmo.eu/publications/rewriting-the-past-endangering-the-future/
+- Total issues: 20
+- Sections: ON THE RISE, ZOOM-IN, ELECTION BEAT, GLOBAL PULSE, ON A DIFFERENT NOTE (all 5)
+- Note: Historical memory weaponised. ON THE RISE: Ratko Mladic's death revives Bosnia/Srebrenica genocide denial and aggressive nationalism in Serbia (Mladic celebrated as hero, Russian state media amplification, EU drift, renewed-violence risk); Germany's AfD (44% in Saxony-Anhalt) proposes cutting Holocaust/Nazism teaching and abolishing the civic-education agency - a redacted memory that serves Moscow and Washington (both now favouring AfD to dismantle the EU). ZOOM-IN: Maldita/Facta 2025 'pop fascism' probe (Franco/Mussolini/Hitler as memes, music, AI videos, 'Franco Fridays'/'Fuhrer Fridays' on TikTok/X/YouTube/Telegram); Provereno Media 'Holocaust for Sale' - AI-generated fake Holocaust victims on monetised Facebook pages, Auschwitz-Birkenau Museum calls it 'falsification of history', plus EDMO Belux media-literacy tool 'The illusion of the archive'; Funky Citizens/BROD analysis of 9,000+ Telegram posts from 35 groups in Romania's 2024 campaign (Calin Georgescu's Dacian mythology, praise for Codreanu and Antonescu, Holocaust downplaying); AfD's Bismarck-era imperial nostalgia. ELECTION BEAT: Swedish technical error misregisters up to 500 early votes -> 'election fraud' rumours and false claim that Election Authority head Anna Nyqvist is a Social Democrat; viral hospital-closure list omits a centre-right closure (Kjell Asplund data); false German claim that media suppressed the child-abuse sentence of a former SPD deputy mayor (widely covered by Zeit/Spiegel/WDR), countering AfD's public-broadcaster 'capture' narrative. GLOBAL PULSE: NYT did NOT report a Saudi 'full-scale war' threat to Israel over Turkey (MedDMO/Cyprus Univ. of Technology); Brazil's Oct 4 Lula vs Flavio Bolsonaro election + Argentine network's false Moroccan-migrant-influx claim (rested on 50 migrants in Florianopolis); VoxCheck fact-check of Putin's post-SCO-summit claims (Sumy/Donetsk advances, Black Sea Grain Initiative, civilian grain-vessel strikes, energy-infrastructure 'retaliation'). ON A DIFFERENT NOTE: Council of Europe study by Iva Nenadic and Marijana Grbesa on newsfluencers as ambivalent actors (democratic opportunity + vulnerability).
+- New concept added to viz: historical-revisionism (Tarihsel Revizyonizm)
+
 ## [2026-09-03] New Issue
 - New issue: **They're (not) eating the cats, again**
 - Date: September 3, 2026
