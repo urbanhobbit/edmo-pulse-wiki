@@ -166,6 +166,14 @@ ARTICLES = [
         "url": "https://edmo.eu/publications/rewriting-the-past-endangering-the-future/",
         "sections": ["ON THE RISE", "ZOOM-IN", "ELECTION BEAT", "GLOBAL PULSE", "ON A DIFFERENT NOTE"],
         "summary": "Historical memory as a weapon: Ratko Mladić's death reignites one of the Balkans' most toxic battles, with Serbian politicians, media and public figures celebrating the convicted génocidaire as a hero and denying Srebrenica, amplified by Russian state media — an aggressive paranoid nationalism that pushes Serbia away from the EU and raises the risk of renewed violence. Germany's AfD, fresh from 44% in Saxony-Anhalt, proposes cutting Holocaust and Nazism teaching and abolishing the civic-education agency; a redacted German memory serves both Moscow and Washington, which now root for AfD to dismantle the EU. ZOOM-IN digs into historical revisionism online: Maldita/Facta's 2025 'pop fascism' investigation (Franco, Mussolini and Hitler repackaged as memes, music, AI videos and 'Führer Fridays' on TikTok, X, YouTube, Telegram, normalising fascist imagery among young audiences); Provereno Media's 'Holocaust for Sale' exposé of AI-generated fake Holocaust victims on monetised Facebook pages (Auschwitz-Birkenau Museum calls it 'falsification of history'; EDMO Belux's media-literacy tool 'The illusion of the archive'); Funky Citizens/BROD analysis of 9,000+ Telegram posts from 35 groups in Romania's 2024 presidential campaign (Călin Georgescu's idealised Dacian heritage, praise for Legionary leader Codreanu and dictator Antonescu, Holocaust downplaying); and AfD's romanticised Bismarck-era Imperial Germany nostalgia replacing post-WWII remembrance. ELECTION BEAT: a Swedish technical error misregisters up to 500 early votes, fuelling 'election fraud' rumours and the false claim that Election Authority head Anna Nyqvist is a Social Democrat; a viral hospital-closure list omits a centre-right-closure case; and a false German claim that media suppressed the child-abuse sentence of a former SPD deputy mayor (widely covered by Zeit, Spiegel, WDR), countering AfD's 'public-broadcaster capture' narrative. GLOBAL PULSE: the New York Times did NOT report that Saudi Arabia threatened Israel with 'full-scale war' if Turkey were attacked (MedDMO/Cyprus University of Technology); Brazil's October 4 election pits Lula against Flávio Bolsonaro, with an Argentine network falsely claiming Lula triggered a Moroccan migrant influx (the story rested on 50 migrants helped in Florianópolis); and VoxCheck's fact-check of Putin's post-SCO-summit claims (battlefield advances near Sumy/Donetsk, the Black Sea Grain Initiative, strikes on civilian grain vessels, energy-infrastructure 'retaliation'). ON A DIFFERENT NOTE: a Council of Europe study by Iva Nenadić and Marijana Grbeša argues newsfluencers are ambivalent actors — simultaneously a source of democratic opportunity and democratic vulnerability."
+    },
+    {
+        "slug": "2026-09-17-edmo-pulse",
+        "date": "September 17, 2026",
+        "title": "Fake doctors, real scams: health disinformation exploits desperation",
+        "url": "https://edmo.eu/publications/fake-doctors-real-scams-health-disinformation-exploits-desperation/",
+        "sections": ["ON THE RISE", "ZOOM-IN", "ELECTION BEAT", "GLOBAL PULSE", "ON A DIFFERENT NOTE"],
+        "summary": "Health disinformation as an industry of false hope. EDMO monitoring puts health-related disinformation at 7% of all detected EU disinformation in both July and August, with Covid-19 monitored separately at 2% (July) and 4% (August). ON THE RISE argues that 'disinformation about miraculous cures' is the most despicable subcategory - preying on the desperation of people facing serious illness - and that it now operates as an industrial-scale business: AI-generated fake doctors and experts, fabricated studies, false news, videos and images, monetised through platform schemes and amplified by disinformation influencers for whom the lies simply go viral. It places this among other health narratives (sunscreen-causes-cancer claims, Hantavirus fearmongering, the evergreen 'mammography causes cancer' hoax, Trump-boosted vaccine-autism claims) and blames the consistent inability to protect people from scams and demonstrably false content, while noting that regulating US-based platforms is now politically and economically harder than ever for the EU - though it is the right thing to do and can literally save lives. ZOOM-IN: NORDIS/TjekDet expose a network of more than 1,000 AI-generated 'doctors' on YouTube producing around 100,000 misleading videos in 30 languages (fictional personas such as Sofie Larsen advising older men on prostate problems and sexual health, channels monetised via subscriptions, donations and supplement or book sales, some abusing real hospital brands) and list the warning signs of bogus health experts: no uncertainty, emotional language, personal attacks on critics, cherry-picked evidence. BENEDMO debunks TikTok claims that magnesium treats ADHD - lower average magnesium levels in children with ADHD are an association, not causation, studies are inconsistent and evidence for supplements is weak. CEDMO fact-checks viral claims that the anti-parasitic drug mebendazole is a hidden cancer cure: the 2021 Johns Hopkins patent does not prove efficacy, human trials are lacking, and self-medication risks drug interactions and requires liver and anaemia monitoring. ELECTION BEAT: NORDIS/Kallkritikbyran - political scientists Jan Teorell and John Hogstrom say nothing indicates deliberate voter fraud in Sweden despite viral missing-ballot videos (replenishment delays, voters removing rival ballots; a 2022 study found some 40% of election officials had witnessed ballot-paper sabotage), plus the recurring false claim that Election Authority head Anna Nyqvist is a Social Democrat (she has no role in vote counting); Sweden Democrats in Atvidaberg criticised a polling site for turning away a voter over political clothing. BECID - ahead of Latvia's October 3 parliamentary election, four parties fight over the fractured Russian-speaking vote once unified under the collapsed 'Harmony': 'Harmony Center' rebrands around ex-mayor Usakovs's legacy and accuses splinter rivals of betrayal; 'For Stability!' (2022 winner) now frames Ukraine aid as unwanted foreign entanglement; Stepanenko's 'Sovereign Power', polling around 11.8%, pledges to redirect defence spending and end conscription; the ethnically Latvian LPV under Slesers courts Russian speakers more cautiously over new residency language rules. GADMO - German claims that AfD's drop from 51.2% in ballot-box votes to 24.3% by post in Saxony-Anhalt proves postal-vote manipulation; the figures are accurate but no fraud is evidenced (the same pattern appeared in the 2025 Bundestag election, 25.3% vs 13.2%), researcher Simon Franzmann attributes the gap to voter demographics and AfD's own long-standing advice to vote in person, and a staged video falsely depicted destroyed ballots. GLOBAL PULSE: EDMO IRELAND/FactCheck reviews four claims made by Donald Trump in Ireland - that Ireland 'took' US pharmaceutical companies and is 'fleecing' America, that Irish investment in the US nearly doubled, that the Ukraine war is the primary cause of global fuel shortages, and that the US could afford $5,000 per adult - finding facts mixed with misleading context or largely unsupported. IDMO/Facta - the assassination of Charlie Kirk has spawned conspiracy theories inside MAGA itself, with Candace Owens amplifying allegations about Erika Kirk's succession role, turning Kirk's legacy into an internal information war of false claims, harassment and extremist rhetoric that could reshape the movement. IDMO/Facta - Iran floods social platforms with AI-generated videos (fictional English-speaking female soldiers from near-identical accounts created around the same time) to project military strength and legitimacy, some unlabelled, blurring the line between reality and propaganda. ON A DIFFERENT NOTE: MIT research 'Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task' warns of cognitive debt and the need to consider effects on critical thinking and intellectual independence."
     }
 ]
 
@@ -179,6 +187,8 @@ def make_page(a):
         tags_list.append("elections")
     if "migrat" in a["summary"].lower() or "crime" in a["summary"].lower():
         tags_list.append("migration")
+    if "health" in a["title"].lower() or "health" in a["summary"].lower():
+        tags_list.append("health-disinformation")
     if "history" in a["title"].lower() or "historical" in a["summary"].lower() or "holocaust" in a["summary"].lower() or "nationalis" in a["summary"].lower():
         tags_list.append("historical-revisionism")
     
@@ -242,7 +252,7 @@ print("\n📝 Generating entity pages...")
 entity_md = f"""---
 title: "European Digital Media Observatory (EDMO)"
 created: 2026-04-16
-updated: 2026-09-10
+updated: 2026-09-17
 type: entity
 tags:
   - institution
@@ -288,7 +298,7 @@ print("\n📝 Generating index page...")
 index_md = f"""---
 title: "EDMO Weekly Pulse Wiki"
 created: 2026-07-08
-updated: 2026-09-10
+updated: 2026-09-17
 type: index
 ---
 
@@ -356,6 +366,7 @@ concepts = [
     ("deepfakes", "Deepfake", "#ec4899"),
     ("media-literacy", "Medya Okuryazarlığı", "#14b8a6"),
     ("historical-revisionism", "Tarihsel Revizyonizm", "#a855f7"),
+    ("health-disinfo", "Sağlık Dezenformasyonu", "#0ea5e9"),
 ]
 
 for cid, clabel, ccolor in concepts:
@@ -423,6 +434,7 @@ article_tags_map = {
     "2026-08-27-edmo-pulse": ["migration", "disinformation", "elections"],
     "2026-09-03-edmo-pulse": ["migration", "disinformation", "ai-content", "elections"],
     "2026-09-10-edmo-pulse": ["historical-revisionism", "disinformation", "elections", "ai-content", "media-literacy"],
+    "2026-09-17-edmo-pulse": ["health-disinfo", "disinformation", "ai-content", "elections", "platform-governance"],
 }
 
 month_of = {
@@ -661,6 +673,7 @@ function buildLegend() {
     { color: '#3b82f6', label: 'Entity (EDMO)' },
     { color: '#10b981', label: 'Issue (Weekly Pulse)' },
     { color: '#8b5cf6', label: 'Concept: AI Content' },
+    { color: '#0ea5e9', label: 'Concept: Health Disinfo' },
     { color: '#ef4444', label: 'Concept: Disinformation' },
     { color: '#f59e0b', label: 'Concept: Elections' },
     { color: '#10b981', label: 'Concept: Climate' },

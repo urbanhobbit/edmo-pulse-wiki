@@ -1,7 +1,7 @@
 ---
 title: "EDMO Weekly Pulse Wiki"
 created: 2026-07-08
-updated: 2026-09-10
+updated: 2026-09-17
 type: index
 ---
 
@@ -21,7 +21,7 @@ Weekly Pulse, Avrupa dezenformasyon ortamındaki güncel trendleri, vakaları ve
 - **GLOBAL PULSE** — Küresel dezenformasyon anlatıları
 - **ON A DIFFERENT NOTE** — İlgili konularda kısa analizler
 
-## Tüm Sayılar (20)
+## Tüm Sayılar (21)
 
 | Tarih | Başlık |
 |---|---|
@@ -45,6 +45,7 @@ Weekly Pulse, Avrupa dezenformasyon ortamındaki güncel trendleri, vakaları ve
 | August 27, 2026 | [[raw/2026-08-27-edmo-pulse.md|Ceuta Crisis: First fuelled, then exploited by disinformation]] |
 | September 3, 2026 | [[raw/2026-09-03-edmo-pulse.md|They're (not) eating the cats, again]] |
 | September 10, 2026 | [[raw/2026-09-10-edmo-pulse.md|Rewriting the past, endangering the future]] |
+| September 17, 2026 | [[raw/2026-09-17-edmo-pulse.md|Fake doctors, real scams: health disinformation exploits desperation]] |
 
 ## Künye
 
