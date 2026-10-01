@@ -31,6 +31,8 @@ sources:
   - raw/2026-09-03-edmo-pulse.md
   - raw/2026-09-10-edmo-pulse.md
   - raw/2026-09-17-edmo-pulse.md
+  - raw/2026-09-25-edmo-pulse.md
+  - raw/2026-10-01-edmo-pulse.md
 ---
 
 # European Digital Media Observatory (EDMO)
@@ -76,3 +78,5 @@ AB'nin en büyük disiplinlerarası dezenformasyonla mücadele ağı. **European
 - [[raw/2026-09-03-edmo-pulse.md|September 3, 2026 — They're (not) eating the cats, again]]
 - [[raw/2026-09-10-edmo-pulse.md|September 10, 2026 — Rewriting the past, endangering the future]]
 - [[raw/2026-09-17-edmo-pulse.md|September 17, 2026 — Fake doctors, real scams: health disinformation exploits desperation]]
+- [[raw/2026-09-25-edmo-pulse.md|September 25, 2026 — Even if it doesn't kill us all, AI can still make a lot of damage to our democracies]]
+- [[raw/2026-10-01-edmo-pulse.md|October 1, 2026 — War in Ukraine: AI-powered disinformation targets mobilization]]

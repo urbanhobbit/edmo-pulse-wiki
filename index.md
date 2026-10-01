@@ -21,7 +21,7 @@ Weekly Pulse, Avrupa dezenformasyon ortamındaki güncel trendleri, vakaları ve
 - **GLOBAL PULSE** — Küresel dezenformasyon anlatıları
 - **ON A DIFFERENT NOTE** — İlgili konularda kısa analizler
 
-## Tüm Sayılar (21)
+## Tüm Sayılar (23)
 
 | Tarih | Başlık |
 |---|---|
@@ -46,6 +46,8 @@ Weekly Pulse, Avrupa dezenformasyon ortamındaki güncel trendleri, vakaları ve
 | September 3, 2026 | [[raw/2026-09-03-edmo-pulse.md|They're (not) eating the cats, again]] |
 | September 10, 2026 | [[raw/2026-09-10-edmo-pulse.md|Rewriting the past, endangering the future]] |
 | September 17, 2026 | [[raw/2026-09-17-edmo-pulse.md|Fake doctors, real scams: health disinformation exploits desperation]] |
+| September 25, 2026 | [[raw/2026-09-25-edmo-pulse.md|Even if it doesn't kill us all, AI can still make a lot of damage to our democracies]] |
+| October 1, 2026 | [[raw/2026-10-01-edmo-pulse.md|War in Ukraine: AI-powered disinformation targets mobilization]] |
 
 ## Künye
 
