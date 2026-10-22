@@ -1,7 +1,7 @@
 ---
 title: "European Digital Media Observatory (EDMO)"
 created: 2026-04-16
-updated: 2026-10-15
+updated: 2026-10-22
 type: entity
 tags:
   - institution
@@ -35,6 +35,7 @@ sources:
   - raw/2026-10-01-edmo-pulse.md
   - raw/2026-10-08-edmo-pulse.md
   - raw/2026-10-15-edmo-pulse.md
+  - raw/2026-10-22-edmo-pulse.md
 ---
 
 # European Digital Media Observatory (EDMO)
@@ -84,3 +85,4 @@ AB'nin en büyük disiplinlerarası dezenformasyonla mücadele ağı. **European
 - [[raw/2026-10-01-edmo-pulse.md|October 1, 2026 — War in Ukraine: AI-powered disinformation targets mobilization]]
 - [[raw/2026-10-08-edmo-pulse.md|October 8, 2026 — Violence in France: The Far-Right Blames Ethnicity and Religion to Promote “Remigration”]]
 - [[raw/2026-10-15-edmo-pulse.md|October 15, 2026 — Ukraine strikes on Yandex and Russian trolls: facts, propaganda and doubts]]
+- [[raw/2026-10-22-edmo-pulse.md|October 22, 2026 — Trump mistakenly blames Ukraine alone for high diesel prices and adjusts U.S. foreign policy accordingly]]

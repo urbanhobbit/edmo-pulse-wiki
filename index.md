@@ -1,7 +1,7 @@
 ---
 title: "EDMO Weekly Pulse Wiki"
 created: 2026-07-08
-updated: 2026-10-15
+updated: 2026-10-22
 type: index
 ---
 
@@ -21,7 +21,7 @@ Weekly Pulse, Avrupa dezenformasyon ortamındaki güncel trendleri, vakaları ve
 - **GLOBAL PULSE** — Küresel dezenformasyon anlatıları
 - **ON A DIFFERENT NOTE** — İlgili konularda kısa analizler
 
-## Tüm Sayılar (25)
+## Tüm Sayılar (26)
 
 | Tarih | Başlık |
 |---|---|
@@ -50,6 +50,7 @@ Weekly Pulse, Avrupa dezenformasyon ortamındaki güncel trendleri, vakaları ve
 | October 1, 2026 | [[raw/2026-10-01-edmo-pulse.md|War in Ukraine: AI-powered disinformation targets mobilization]] |
 | October 8, 2026 | [[raw/2026-10-08-edmo-pulse.md|Violence in France: The Far-Right Blames Ethnicity and Religion to Promote “Remigration”]] |
 | October 15, 2026 | [[raw/2026-10-15-edmo-pulse.md|Ukraine strikes on Yandex and Russian trolls: facts, propaganda and doubts]] |
+| October 22, 2026 | [[raw/2026-10-22-edmo-pulse.md|Trump mistakenly blames Ukraine alone for high diesel prices and adjusts U.S. foreign policy accordingly]] |
 
 ## Künye
 
