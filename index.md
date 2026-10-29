@@ -1,13 +1,13 @@
 ---
 title: "EDMO Weekly Pulse Wiki"
 created: 2026-07-08
-updated: 2026-10-22
+updated: 2026-10-29
 type: index
 ---
 
 # 📡 EDMO Weekly Pulse Wiki
 
-EDMO (European Digital Media Observatory) tarafından her Perşembe yayınlanan **Weekly Pulse** bülteninin arşiv ve görselleştirme wiki'si.
+EDMO (European Digital Media Observatory) tarafından her Perşembe yayınlanan **Weekly Pulse** bülteninin ve **aylık yayınların** (Signals & Noise, Monthly Situational Report, Media Literacy Digest, Best-of Fact-checking Map) arşiv ve görselleştirme wiki'si.
 
 ## Nedir?
 
@@ -51,6 +51,12 @@ Weekly Pulse, Avrupa dezenformasyon ortamındaki güncel trendleri, vakaları ve
 | October 8, 2026 | [[raw/2026-10-08-edmo-pulse.md|Violence in France: The Far-Right Blames Ethnicity and Religion to Promote “Remigration”]] |
 | October 15, 2026 | [[raw/2026-10-15-edmo-pulse.md|Ukraine strikes on Yandex and Russian trolls: facts, propaganda and doubts]] |
 | October 22, 2026 | [[raw/2026-10-22-edmo-pulse.md|Trump mistakenly blames Ukraine alone for high diesel prices and adjusts U.S. foreign policy accordingly]] |
+
+## Aylık Yayınlar (1)
+
+| Tarih | Yayın | Başlık |
+|---|---|---|
+| October 29, 2026 | Signals & Noise (monthly) | [[raw/2026-10-29-edmo-monthly-signals-noise.md|The Factory of Discord: How Foreign Actors Exploit Social Unrest in Europe]] |
 
 ## Künye
 

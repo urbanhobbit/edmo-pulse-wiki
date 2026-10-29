@@ -1,3 +1,13 @@
+## [2026-10-29] Aylık yayınlar hattı açıldı + ilk aylık kayıt
+- Monthly publications now tracked alongside the Weekly Pulse (Emre: "aylık yayınları da dahil et").
+- New entry: **Signals & Noise — The Factory of Discord: How Foreign Actors Exploit Social Unrest in Europe**
+- Date: October 29, 2026 · Author: Paolo Cesarini (EDMO Executive Board Chair) · URL: https://edmo.eu/blog/the-factory-of-discord-how-foreign-actors-exploit-social-unrest-in-europe/
+- Type: `monthly-publication` (Signals & Noise); page `raw/2026-10-29-edmo-monthly-signals-noise.md` written with full content (not a stub)
+- Content: European protests (FR, IT, ES, BE, PT, GR) — documented foreign exploitation but **no evidence of a single command**; Storm-1516 & Matryoshka amplification; Tbilisi 2024 footage passed off as France; AI videos against Zelensky; protests→anti-immigration narrative; Asmongold ~1.7M views; platform contagion effect; three conclusions; dual-error warning for the democratic response.
+- Series to track going forward: Signals & Noise (monthly), Monthly Situational Report, Media Literacy Digest, Best-of Fact-checking Map. Note: Media Literacy Digest (27 Oct) and Best-of Map (23 Oct) bodies are JS-rendered and were not extractable this run — recorded as a known gap, no stub pages created.
+- Graph: monthly nodes get colour #f43f5e + `monthly-reports` concept; weekly/monthly sequence chain kept separate.
+- Bundle/viz regenerated: 47 nodes / 184 edges.
+
 # EDMO Pulse Wiki — Change Log
 
 ## [2026-10-22] New Issue

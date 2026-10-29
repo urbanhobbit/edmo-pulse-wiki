@@ -7,7 +7,7 @@
         "type": "entity",
         "color": "#3b82f6",
         "description": "European Digital Media Observatory",
-        "degree": 36
+        "degree": 38
       }
     },
     {
@@ -16,7 +16,7 @@
         "label": "Dezenformasyon",
         "type": "concept",
         "color": "#ef4444",
-        "degree": 26,
+        "degree": 27,
         "description": "Kavram: Dezenformasyon"
       }
     },
@@ -36,7 +36,7 @@
         "label": "AI \u00dcretimi \u0130\u00e7erik",
         "type": "concept",
         "color": "#8b5cf6",
-        "degree": 17,
+        "degree": 18,
         "description": "Kavram: AI \u00dcretimi \u0130\u00e7erik"
       }
     },
@@ -56,7 +56,7 @@
         "label": "G\u00f6\u00e7 ve Su\u00e7 Anlat\u0131lar\u0131",
         "type": "concept",
         "color": "#f97316",
-        "degree": 6,
+        "degree": 7,
         "description": "Kavram: G\u00f6\u00e7 ve Su\u00e7 Anlat\u0131lar\u0131"
       }
     },
@@ -66,7 +66,7 @@
         "label": "Platform Y\u00f6neti\u015fimi",
         "type": "concept",
         "color": "#06b6d4",
-        "degree": 13,
+        "degree": 14,
         "description": "Kavram: Platform Y\u00f6neti\u015fimi"
       }
     },
@@ -108,6 +108,16 @@
         "color": "#0ea5e9",
         "degree": 2,
         "description": "Kavram: Sa\u011fl\u0131k Dezenformasyonu"
+      }
+    },
+    {
+      "data": {
+        "id": "monthly-reports",
+        "label": "Ayl\u0131k Yay\u0131nlar",
+        "type": "concept",
+        "color": "#f43f5e",
+        "degree": 2,
+        "description": "Kavram: Ayl\u0131k Yay\u0131nlar"
       }
     },
     {
@@ -179,7 +189,7 @@
         "label": "October 2026",
         "type": "concept",
         "color": "#64748b",
-        "degree": 4
+        "degree": 5
       }
     },
     {
@@ -493,6 +503,18 @@
         "url": "https://edmo.eu/publications/trump-mistakenly-blames-ukraine-alone-for-high-diesel-prices-and-adjusts-u-s-foreign-policy-accordingly/",
         "degree": 7
       }
+    },
+    {
+      "data": {
+        "id": "2026-10-29-edmo-monthly-signals-noise",
+        "label": "October 29 2026",
+        "type": "raw_article",
+        "color": "#f43f5e",
+        "full_title": "MONTHLY \u00b7 The Factory of Discord: How Foreign Actors Exploit S",
+        "description": "Monthly EDMO overview: European protests (France, Italy, Spain, Belgium, Portugal, Greece) mix legitimate grievances with manipulation. Documented foreign exploitation, but no evidence of a single com",
+        "url": "https://edmo.eu/blog/the-factory-of-discord-how-foreign-actors-exploit-social-unrest-in-europe/",
+        "degree": 7
+      }
     }
   ],
   "edges": [
@@ -573,6 +595,14 @@
         "id": "edmo-health-disinfo",
         "source": "edmo",
         "target": "health-disinfo",
+        "label": "covers"
+      }
+    },
+    {
+      "data": {
+        "id": "edmo-monthly-reports",
+        "source": "edmo",
+        "target": "monthly-reports",
         "label": "covers"
       }
     },
@@ -1701,6 +1731,62 @@
         "id": "2026-10-22-edmo-pulse-platform-governance",
         "source": "2026-10-22-edmo-pulse",
         "target": "platform-governance",
+        "label": "about"
+      }
+    },
+    {
+      "data": {
+        "id": "edmo-2026-10-29-edmo-monthly-signals-noise",
+        "source": "edmo",
+        "target": "2026-10-29-edmo-monthly-signals-noise",
+        "label": "published"
+      }
+    },
+    {
+      "data": {
+        "id": "2026-10-29-edmo-monthly-signals-noise-oct-2026",
+        "source": "2026-10-29-edmo-monthly-signals-noise",
+        "target": "oct-2026",
+        "label": "in"
+      }
+    },
+    {
+      "data": {
+        "id": "2026-10-29-edmo-monthly-signals-noise-disinformation",
+        "source": "2026-10-29-edmo-monthly-signals-noise",
+        "target": "disinformation",
+        "label": "about"
+      }
+    },
+    {
+      "data": {
+        "id": "2026-10-29-edmo-monthly-signals-noise-platform-governance",
+        "source": "2026-10-29-edmo-monthly-signals-noise",
+        "target": "platform-governance",
+        "label": "about"
+      }
+    },
+    {
+      "data": {
+        "id": "2026-10-29-edmo-monthly-signals-noise-migration",
+        "source": "2026-10-29-edmo-monthly-signals-noise",
+        "target": "migration",
+        "label": "about"
+      }
+    },
+    {
+      "data": {
+        "id": "2026-10-29-edmo-monthly-signals-noise-ai-content",
+        "source": "2026-10-29-edmo-monthly-signals-noise",
+        "target": "ai-content",
+        "label": "about"
+      }
+    },
+    {
+      "data": {
+        "id": "2026-10-29-edmo-monthly-signals-noise-monthly-reports",
+        "source": "2026-10-29-edmo-monthly-signals-noise",
+        "target": "monthly-reports",
         "label": "about"
       }
     },

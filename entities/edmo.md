@@ -1,7 +1,7 @@
 ---
 title: "European Digital Media Observatory (EDMO)"
 created: 2026-04-16
-updated: 2026-10-22
+updated: 2026-10-29
 type: entity
 tags:
   - institution
@@ -86,3 +86,7 @@ AB'nin en büyük disiplinlerarası dezenformasyonla mücadele ağı. **European
 - [[raw/2026-10-08-edmo-pulse.md|October 8, 2026 — Violence in France: The Far-Right Blames Ethnicity and Religion to Promote “Remigration”]]
 - [[raw/2026-10-15-edmo-pulse.md|October 15, 2026 — Ukraine strikes on Yandex and Russian trolls: facts, propaganda and doubts]]
 - [[raw/2026-10-22-edmo-pulse.md|October 22, 2026 — Trump mistakenly blames Ukraine alone for high diesel prices and adjusts U.S. foreign policy accordingly]]
+
+## Monthly Publications
+
+- [[raw/2026-10-29-edmo-monthly-signals-noise.md|October 29, 2026 — Signals & Noise (monthly): The Factory of Discord: How Foreign Actors Exploit Social Unrest in Europe]]

@@ -218,6 +218,23 @@ ARTICLES = [
     }
 ]
 
+# ── Monthly publications (Signals & Noise, Situation Reports, Media Literacy Digest,
+#    Best-of Fact-checking Map). Added 2026-10-29 at Emre's request: "aylık yayınları da dahil et".
+#    Colour #f43f5e distinguishes them from weekly issues (#10b981).
+MONTHLY = [
+    {
+        "slug": "2026-10-29-edmo-monthly-signals-noise",
+        "date": "October 29, 2026",
+        "title": "The Factory of Discord: How Foreign Actors Exploit Social Unrest in Europe",
+        "url": "https://edmo.eu/blog/the-factory-of-discord-how-foreign-actors-exploit-social-unrest-in-europe/",
+        "publication": "Signals & Noise (monthly)",
+        "author": "Paolo Cesarini",
+        "sections": ["European protests", "Ukraine & Zelensky", "Protests to ethnic war", "Platforms", "Who benefits"],
+        "summary": "Monthly EDMO overview: European protests (France, Italy, Spain, Belgium, Portugal, Greece) mix legitimate grievances with manipulation. Documented foreign exploitation, but no evidence of a single command behind the unrest; Storm-1516 and Matryoshka amplified footage, including Tbilisi 2024 video passed off as France. Second strand converts protests into anti-immigration narrative; platforms create a contagion effect rather than a coordinated plot.",
+        "tags": ["disinformation", "platform-governance", "migration", "ai-content", "monthly-reports"],
+    },
+]
+
 def make_page(a):
     tags_list = ["edmo", "weekly-pulse", "disinformation", "europe"]
     if "climate" in a["title"].lower() or "climate" in a["summary"].lower():
@@ -288,6 +305,39 @@ for a in ARTICLES:
         f.write(make_page(a))
     print(f"  ✅ {a['slug']}.md")
 
+# Monthly publications: pages are written by hand/agent (rich content); this only
+# creates a stub if one is missing so bundle/index never reference a dead link.
+for m in MONTHLY:
+    path = f"{WIKI}/raw/{m['slug']}.md"
+    if os.path.exists(path):
+        print(f"  ⏭️ {m['slug']}.md (exists, skipped)")
+        continue
+    with open(path, 'w') as f:
+        f.write(f"""---
+title: \"{m['title']}\"
+source: \"EDMO\"
+url: \"{m['url']}\"
+date: \"{m['date']}\"
+type: \"monthly-publication\"
+publication: \"{m['publication']}\"
+tags:
+  - edmo
+  - monthly
+---
+
+## {m['title']}
+
+**{m['date']}** — {m['publication']}
+
+{m['summary']}
+
+---
+
+## 🔗 Related
+- [[entities/edmo.md|European Digital Media Observatory (EDMO)]]
+""")
+    print(f"  ✅ {m['slug']}.md (stub)")
+
 # Entity page
 print("\n📝 Generating entity pages...")
 entity_md = f"""---
@@ -328,6 +378,10 @@ AB'nin en büyük disiplinlerarası dezenformasyonla mücadele ağı. **European
 ## Weekly Pulse Editions
 
 {chr(10).join(f'- [[raw/{a["slug"]}.md|{a["date"]} — {a["title"]}]]' for a in ARTICLES)}
+
+## Monthly Publications
+
+{chr(10).join(f'- [[raw/{m["slug"]}.md|{m["date"]} — {m["publication"]}: {m["title"]}]]' for m in MONTHLY)}
 """
 
 with open(f"{WIKI}/entities/edmo.md", 'w') as f:
@@ -345,7 +399,7 @@ type: index
 
 # 📡 EDMO Weekly Pulse Wiki
 
-EDMO (European Digital Media Observatory) tarafından her Perşembe yayınlanan **Weekly Pulse** bülteninin arşiv ve görselleştirme wiki'si.
+EDMO (European Digital Media Observatory) tarafından her Perşembe yayınlanan **Weekly Pulse** bülteninin ve **aylık yayınların** (Signals & Noise, Monthly Situational Report, Media Literacy Digest, Best-of Fact-checking Map) arşiv ve görselleştirme wiki'si.
 
 ## Nedir?
 
@@ -364,6 +418,12 @@ Weekly Pulse, Avrupa dezenformasyon ortamındaki güncel trendleri, vakaları ve
 | Tarih | Başlık |
 |---|---|
 {chr(10).join(f'| {a["date"]} | [[raw/{a["slug"]}.md|{a["title"]}]] |' for a in ARTICLES)}
+
+## Aylık Yayınlar ({len(MONTHLY)})
+
+| Tarih | Yayın | Başlık |
+|---|---|---|
+{chr(10).join(f'| {m["date"]} | {m["publication"]} | [[raw/{m["slug"]}.md|{m["title"]}]] |' for m in MONTHLY)}
 
 ## Künye
 
@@ -408,6 +468,7 @@ concepts = [
     ("media-literacy", "Medya Okuryazarlığı", "#14b8a6"),
     ("historical-revisionism", "Tarihsel Revizyonizm", "#a855f7"),
     ("health-disinfo", "Sağlık Dezenformasyonu", "#0ea5e9"),
+    ("monthly-reports", "Aylık Yayınlar", "#f43f5e"),
 ]
 
 for cid, clabel, ccolor in concepts:
@@ -545,6 +606,31 @@ for a in ARTICLES:
                     "label": "about"
                 }
             })
+
+# Monthly publication nodes/edges
+for m in MONTHLY:
+    month_key = "-".join(m["slug"].split("-")[:2])
+    month_node = month_of.get(month_key, "oct-2026")
+    mtags = m.get("tags", ["disinformation"])
+    mid = m["slug"]
+    nodes.append({
+        "data": {
+            "id": mid,
+            "label": m["date"].replace(",", ""),
+            "type": "raw_article",
+            "color": "#f43f5e",
+            "full_title": "MONTHLY · " + m["title"][:52],
+            "description": m["summary"][:200],
+            "url": m["url"],
+            "degree": len(mtags) + 2
+        }
+    })
+    seen_ids.add(mid)
+    edges.append({"data": {"id": f"edmo-{mid}", "source": "edmo", "target": mid, "label": "published"}})
+    edges.append({"data": {"id": f"{mid}-{month_node}", "source": mid, "target": month_node, "label": "in"}})
+    for tag in mtags:
+        if tag in [c[0] for c in concepts]:
+            edges.append({"data": {"id": f"{mid}-{tag}", "source": mid, "target": tag, "label": "about"}})
 
 # Sequence edges between consecutive issues
 for i in range(len(ARTICLES) - 1):
