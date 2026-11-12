@@ -1,7 +1,7 @@
 ---
 title: "EDMO Weekly Pulse Wiki"
 created: 2026-07-08
-updated: 2026-11-05
+updated: 2026-11-12
 type: index
 ---
 
@@ -21,7 +21,7 @@ Weekly Pulse, Avrupa dezenformasyon ortamındaki güncel trendleri, vakaları ve
 - **GLOBAL PULSE** — Küresel dezenformasyon anlatıları
 - **ON A DIFFERENT NOTE** — İlgili konularda kısa analizler
 
-## Tüm Sayılar (28)
+## Tüm Sayılar (29)
 
 | Tarih | Başlık |
 |---|---|
@@ -53,6 +53,7 @@ Weekly Pulse, Avrupa dezenformasyon ortamındaki güncel trendleri, vakaları ve
 | October 22, 2026 | [[raw/2026-10-22-edmo-pulse.md|Trump mistakenly blames Ukraine alone for high diesel prices and adjusts U.S. foreign policy accordingly]] |
 | October 30, 2026 | [[raw/2026-10-30-edmo-pulse.md|Brazil, Serbia, Israel: Election-related disinformation from Trump and Putin’s playbook]] |
 | November 5, 2026 | [[raw/2026-11-05-edmo-pulse.md|Poland’s constitutional crisis: between foreign interference and genuine alignments]] |
+| November 12, 2026 | [[raw/2026-11-12-edmo-pulse.md|The greatest threat to European information integrity is coming from the U.S. and the European far right]] |
 
 ## Aylık Yayınlar (1)
 

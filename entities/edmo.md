@@ -1,7 +1,7 @@
 ---
 title: "European Digital Media Observatory (EDMO)"
 created: 2026-04-16
-updated: 2026-11-05
+updated: 2026-11-12
 type: entity
 tags:
   - institution
@@ -38,6 +38,7 @@ sources:
   - raw/2026-10-22-edmo-pulse.md
   - raw/2026-10-30-edmo-pulse.md
   - raw/2026-11-05-edmo-pulse.md
+  - raw/2026-11-12-edmo-pulse.md
 ---
 
 # European Digital Media Observatory (EDMO)
@@ -90,6 +91,7 @@ AB'nin en büyük disiplinlerarası dezenformasyonla mücadele ağı. **European
 - [[raw/2026-10-22-edmo-pulse.md|October 22, 2026 — Trump mistakenly blames Ukraine alone for high diesel prices and adjusts U.S. foreign policy accordingly]]
 - [[raw/2026-10-30-edmo-pulse.md|October 30, 2026 — Brazil, Serbia, Israel: Election-related disinformation from Trump and Putin’s playbook]]
 - [[raw/2026-11-05-edmo-pulse.md|November 5, 2026 — Poland’s constitutional crisis: between foreign interference and genuine alignments]]
+- [[raw/2026-11-12-edmo-pulse.md|November 12, 2026 — The greatest threat to European information integrity is coming from the U.S. and the European far right]]
 
 ## Monthly Publications
 
