@@ -1,5 +1,6 @@
 {
   "known_urls": [
+    "https://edmo.eu/publications/how-disinformation-exploited-the-krakow-tragedy-to-attack-the-usual-targets-and-how-elon-musk-made-things-worse/",
     "https://edmo.eu/publications/the-greatest-threat-to-european-information-integrity-is-coming-from-the-u-s-and-the-european-far-right/",
     "https://edmo.eu/publications/trump-mistakenly-blames-ukraine-alone-for-high-diesel-prices-and-adjusts-u-s-foreign-policy-accordingly/",
     "https://edmo.eu/publications/ai-and-more-shaping-gulf-war-perceptions-in-europe/",
@@ -31,6 +32,7 @@
     "https://edmo.eu/publications/polands-constitutional-crisis-between-foreign-interference-and-genuine-alignments/"
   ],
   "known_titles": [
+    "How disinformation exploited the Kraków tragedy to attack the usual targets, and how Elon Musk made things worse",
     "The greatest threat to European information integrity is coming from the U.S. and the European far right",
     "Trump mistakenly blames Ukraine alone for high diesel prices and adjusts U.S. foreign policy accordingly",
     "AI (and More) Shaping Gulf War Perceptions in Europe",
@@ -61,6 +63,10 @@
     "Brazil, Serbia, Israel: Election-related disinformation from Trump and Putin’s playbook",
     "Poland’s constitutional crisis: between foreign interference and genuine alignments"
   ],
-  "last_checked": "2026-11-12T16:10:00Z",
-  "last_new_issue": "2026-11-12"
+  "last_checked": "2026-11-19T16:00:00Z",
+  "last_new_issue": "2026-11-19",
+  "reviewed_not_ingested": [
+    "https://edmo.eu/publications/the-russian-operation-matryoshka-launches-a-campaign-to-interfere-in-the-november-29-elections-in-spain-catalan-separatism-european-collapse-and-the-housing-crisis/",
+    "https://edmo.eu/publications/the-baseless-story-that-rape-rates-are-rising-because-of-immigration/"
+  ]
 }
